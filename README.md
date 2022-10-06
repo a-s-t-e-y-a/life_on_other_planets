@@ -12,8 +12,8 @@ Follow the instructions.
 
 To use :-
 
-git clone https://github.com/a-s-t-e-y-a/life_on_other_planets
-npm install
-node server.js
-You will get all the output on a console.
+1.)git clone https://github.com/a-s-t-e-y-a/life_on_other_planets
+2.)npm install
+3.)node server.js
+4.)You will get all the output on a console.
 
