@@ -1,16 +1,17 @@
 {
-  "name": "ztm_node",
+  "name": "life_on_other_planets",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "script":"nodemon server.js"
+    "script": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "csv-parse": "^5.3.0",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
