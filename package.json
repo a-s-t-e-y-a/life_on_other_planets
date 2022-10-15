@@ -1,0 +1,27 @@
+{
+  "name": "life_on_other_planets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run script --prefix server",
+    "client":"npm start --prefix client",
+    "watch": "npm run server & npm run client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server":"npm install --prefix server",
+    "install-client":"npm install --prefix client",
+    "install":"npm run install-server && npm run install-client",
+    "deploy":"npm run build --prefix client && npm start --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-s-t-e-y-a/life_on_other_planets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-s-t-e-y-a/life_on_other_planets/issues"
+  },
+  "homepage": "https://github.com/a-s-t-e-y-a/life_on_other_planets#readme"
+}
